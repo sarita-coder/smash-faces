@@ -1,3 +1,4 @@
+
 /* Inserta tu código aqui */
 $(document).ready(function() {
 	$("#boton").click(funciona);	
