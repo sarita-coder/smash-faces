@@ -7,22 +7,6 @@ function getInputValue(){
   var mensaje= ($("#nombre").val()).toLowerCase();
   return mensaje;
 }
-//------------------------------
-// var uniqueRandoms = [];
-// var numRandoms=0;
-// function makeUniqueRandom() {
-//     // refill the array if needed
-//     if (!uniqueRandoms.length) {
-//         for (var i = 0; i < numRandoms; i++) {
-//             uniqueRandoms.push(i);
-//         }
-//     }
-//     var index = Math.floor(Math.random() * uniqueRandoms.length);
-//     var val = uniqueRandoms[index];
-//     // now remove that value from the array
-//     uniqueRandoms.splice(index, 1);
-//     return val;
-// }
 var historial = []
 
 function generarAleatorio(maximo) {
