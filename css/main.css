@@ -1,7 +1,16 @@
 /* Inserta tu codigo aqui */
+body{
+	background-image: url("../fotos/fondo.jpg");
+	background-size:100% 200%;
+	background-repeat: no-repeat;
+	color: white;
+
+
+}
 .sedes{
 	width: 200px;
-	background: yellow;
+	background: white;
+	color: black;
 	border: none;
 	padding: 5px;
 }
